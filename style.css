@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.ggimage {
+  background-image: url("about.jpg");
+  background-size: 100% 90%;
+  width: 100%;
+  height: 110vh;
+}
+.igimage {
+  background-image: url("contact.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 110vh;
+}
+
+.bgimage {
+  background-image: url("mainpage.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+}
+
+.leftmenu h4 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: "Potta One", cursive;
+}
+.rightmenu {
+  width: 75%;
+  height: 100px;
+  float: right;
+}
+.rightmenu ul {
+  margin-left: 500px;
+}
+
+.rightmenu ul li {
+  font-family: "Potta One", cursive;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#firstlist {
+  color: orange;
+}
+.rightmenu ul li:hover {
+  color: orange;
+}
+.text {
+  width: 100%;
+  margin-top: 185px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: "Coda Caption", sans-serif;
+}
+.text h4 {
+  font-style: 14px;
+  font-family: "Coda Caption", sans-serif;
+}
+.text h1 {
+  font-size: 60px;
+  font-family: "Coda Caption", sans-serif;
+  font-weight: 700px;
+  margin: 14px 0px;
+}
+.text h3 {
+  color: azure;
+}
+#buttonone {
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 25px;
+  border: 3px solid white;
+}
+
+#buttontwo {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 25px;
+  border: 3px solid white;
+}
+.test {
+  width: 100%;
+  margin-top: 185px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(173, 0, 0);
+  font-family: "Coda Caption", sans-serif;
+}
+.test h4 {
+  font-style: 14px;
+  font-family: "Coda Caption", sans-serif;
+}
+.test h1 {
+  font-size: 60px;
+  font-family: "Coda Caption", sans-serif;
+  font-weight: 700px;
+  margin: 14px 0px;
+}
+.test h3 {
+  color: rgb(15, 20, 20);
+}
+.about h4 {
+  width: 50%;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: justify;
+  color: rgb(146, 96, 96);
+  font-family: "Nunito Sans", sans-serif;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
